@@ -1,0 +1,69 @@
+[
+  {
+      "id": "abc0001",
+      "name": "Matthew Sellers",
+      "price": 31,
+      "ratings": 4,
+      "Time":10 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg",
+      "quantity": 0
+  
+    },
+  {
+      "id": "abc0002",
+      "name": "Alika Maldonado",
+      "price": 39,
+      "ratings": 4,
+      "Time":15 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2017/11/13/15/09/biceps-2945912__340.jpg",
+      "quantity": 0
+  
+    },
+  {
+      "id": "abc0003",
+      "name": "Zephr Finch",
+      "price": 33,
+      "ratings": 4,
+      "Time":18 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2016/11/29/09/11/fit-1868634__340.jpg",
+      "quantity": 0
+  
+    },
+  {
+      "id": "abc0004",
+      "name": "Tate Moody",
+      "price": 34,
+      "ratings": 4,
+      "Time":20 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2017/08/10/23/34/street-workout-2628904__340.jpg",
+      "quantity": 0
+  
+    },
+  {
+      "id": "abc0005",
+      "name": "Jennifer Curtis",
+      "price": 38,
+      "ratings": 4,
+      "Time":30 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg",
+      "quantity": 0
+  
+    },
+  {
+      "id": "abc0006",
+      "name": "Green Sellers",
+      "price": 37,
+      "ratings": 4,
+      "Time":12 ,
+      "ratingsCount": 68,
+      "img": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg",
+      "quantity": 0
+  
+    }
+  ]
+  
