@@ -14,7 +14,8 @@ const Activity = () => {
         <div className='activity-container'>
            <div className="gym-container">
             {
-                gym.map(gymActivity =><Gym key={gym.id}></Gym>)
+                gym.map(gymActivity =>
+                <Gym key={gymActivity.id} gym={gymActivity} ></Gym>)
             }
            </div>
            <div className="activity-details">
