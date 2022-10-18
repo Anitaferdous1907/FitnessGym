@@ -8,8 +8,12 @@ const Gym = (props) => {
     return (
         <div className='gym'>
            <img src={img}  alt></img>
-           <p className='name'>Name:{name}</p>
+          <div className='gym-info'>
+          <p className='name'>Name:{name}</p>
            <p>Time:{Time}</p>
+          </div>
+          <button className='btn-cart'><p>Add to Cart</p></button>
+            
         </div>
     );
 };

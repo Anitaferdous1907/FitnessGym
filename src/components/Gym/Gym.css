@@ -1,11 +1,22 @@
 .gym{
     width: 300px;
-    height: 510px;
+    height: 420px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 7px;
+    position: relative;
 }
 .gym img{
     width: 286px;
     height: 286px;
+    margin: 7px;
 
+}
+.gym-info{
+margin: 0 14px;
+}
+.gym-info p{
+    margin-bottom: 0 ;
 }
 .name{
 font-family: 'Lato';
@@ -13,5 +24,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 21px;
 line-height: 25px;
+margin-top: 7px;
+margin-top: 7px;
 
+}
+.btn-cart{
+    width: 100%;
+    background-color: rgb(255, 116, 186);
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    right:1px;
+    left: 0px;
+}
+.btn-cart:hover{
+    background-color: rgb(250, 5, 128);
 }
