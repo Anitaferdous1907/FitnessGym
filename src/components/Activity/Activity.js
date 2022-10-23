@@ -57,6 +57,11 @@ const [cart,setCart]=useState([])
            </div>
            
            <h2 className='activiy'>Activities details: {cart.length}</h2> 
+
+<p className='times'> TIME:</p>
+
+<p className='times'> Breaktime:</p> 
+           
            </div>
            <div> <h1>How does React Work?</h1>
            <p>
