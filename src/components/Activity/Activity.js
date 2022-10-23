@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Gym from '../Gym/Gym';
 import './Activity.css'
+import img from '../../Images/ANITA.jpg'
+import img2 from '../../Images/location.png'
+import Cart from '../cart/Cart';
 
 
 
@@ -26,43 +29,7 @@ const [cart,setCart]=useState([])
                 gym.map(gymActivity =><Gym key={gymActivity.id} gymActivity={gymActivity} handleAddToCart={handleAddToCart} ></Gym>)
             }
            </div>
-           <div className="activity-details">
-           <div className='profile'>
-        
-            <h1> Anita Ferdous</h1>
-            <p>dhaka,Bangladesh</p>
-           </div>
-           <div className='personal-info'>
-            <div>
-            <p>weight</p>
-            <h4>90kg</h4>
-            </div>
-            <div>
-                <p>height</p>
-                <h4>5'5</h4>
-            </div>
-            <div>
-                <p>Age</p>
-                <h4>25 Years</h4>
-            </div>
-           </div>
-           <h3>Add break</h3>
-           <div className='btn'>
-            <button>10s</button>
-            <button>20s</button>
-            <button>30s</button>
-            <button>40s</button>
-            <button>50s</button>
-            
-           </div>
-           
-           <h2 className='activiy'>Activities details: {cart.length}</h2> 
-
-<p className='times'> TIME:</p>
-
-<p className='times'> Breaktime:</p> 
-           
-           </div>
+           <Cart cart={cart}></Cart>
            <div> <h1>How does React Work?</h1>
            <p>
            React is a very simple and straightforward JavaScript library. Working with it is very easy for anyone who has basic JavaScript knowledge. And one of the biggest benefits of using React library is that it enables the app developers to import HTML code with JavaScript code while creating a React application.

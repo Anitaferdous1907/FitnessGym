@@ -1,7 +1,6 @@
 .header{
     display: flex;
     height: 80px;
-    background-color: rgb(248, 246, 225);
     align-items: center;
 }
 h1{
