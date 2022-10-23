@@ -10,6 +10,7 @@
     width: 286px;
     height: 286px;
     margin: 7px;
+    border-radius: 5px;
 
 }
 .gym-info{
@@ -37,7 +38,7 @@ margin-top: 7px;
     position: absolute;
     bottom: 0;
     right:1px;
-    left: 0px;
+    left: 0 px;
 }
 .btn-cart:hover{
     background-color: rgb(250, 5, 128);

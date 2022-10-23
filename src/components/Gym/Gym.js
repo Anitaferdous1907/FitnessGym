@@ -1,8 +1,10 @@
 import React from 'react';
 import './Gym.css'
 
-const Gym = (props) => {
-    const {name,Time,img}=props.gym;
+const Gym = ({gymActivity,handleAddToCart}) => {
+    const {name,Time,img}=gymActivity;
+   
+    
     
     //console.log(props.gym)
     return (
@@ -10,9 +12,9 @@ const Gym = (props) => {
            <img src={img}  alt></img>
           <div className='gym-info'>
           <p className='name'>Name:{name}</p>
-           <p>Time:{Time}</p>
+           <p>Time: {Time} min</p>
           </div>
-          <button className='btn-cart'><p>Add to Cart</p></button>
+          <button onClick={() => handleAddToCart(gymActivity)} className='btn-cart'><p>Add to List</p></button>
             
         </div>
     );
