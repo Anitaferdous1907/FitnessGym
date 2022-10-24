@@ -1,0 +1,71 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 23px;
+
+}
+
+.times{
+    text-align: center;
+}
+.profile img{
+    width: 100px;
+
+}
+.profile2{
+    display: flex;
+
+}
+.profile3 img{
+    width: 25px;
+    
+}
+.profile3{
+    display: flex;
+
+}
+.personal-info{
+    
+    background-color: rgb(231, 226, 233);
+    border-radius: 10px;
+    font-style: oblique;
+    margin: 5px;
+    padding: 5px;
+   display: flex;
+   justify-content: space-between;
+}
+.btn{ background-color: rgb(220, 220, 36);
+    border-radius: 2px;
+    height: 40px;
+    align-items: center;
+    justify-content:center;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.activiy{
+    margin: 5px;
+}
+.times{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(231, 226, 233);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+.activity-toast{
+    width: 300px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+padding-left: 10px;
+margin: 10px;
+border-radius: 4px;
+}
+.activity-toast:hover{
+    background-color: rgb(255, 127, 127);
+}

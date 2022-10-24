@@ -4,7 +4,7 @@
       "name": "Dumbbell rows",
       "price": 31,
       "ratings": 4,
-      "Time": "10 min",
+      "Time": 10,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_960_720.jpg",
       "quantity": 0
@@ -15,7 +15,7 @@
       "name": "Leg press",
       "price": 39,
       "ratings": 4,
-      "Time": "15 min",
+      "Time": 15,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg",
       "quantity": 0
@@ -26,7 +26,7 @@
       "name": "Zephr Finch",
       "price": 33,
       "ratings": 4,
-      "Time": "18 min" ,
+      "Time": 18 ,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2021/01/13/16/46/workout-5914643_960_720.jpg",
       "quantity": 0
@@ -37,7 +37,7 @@
       "name": "Tate Moody",
       "price": 34,
       "ratings": 4,
-      "Time":"20 min" ,
+      "Time":20,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2017/01/02/11/52/workout-1946596_960_720.jpg",
       "quantity": 0
@@ -48,7 +48,7 @@
       "name": "Jennifer Curtis",
       "price": 38,
       "ratings": 4,
-      "Time": "30 min" ,
+      "Time": 40 ,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg",
       "quantity": 0
@@ -59,7 +59,7 @@
       "name": "Single deadlifts",
       "price": 37,
       "ratings": 4,
-      "Time": "12 min" ,
+      "Time": 12 ,
       "ratingsCount": 68,
       "img": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg",
       "quantity": 0
