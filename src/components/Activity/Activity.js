@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Gym from '../Gym/Gym';
 import './Activity.css'
-import img from '../../Images/ANITA.jpg'
-import img2 from '../../Images/location.png'
 import Cart from '../cart/Cart';
 import BonusMark from '../cart/BonusMark/BonusMark';
 

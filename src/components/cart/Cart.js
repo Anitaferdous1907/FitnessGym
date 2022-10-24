@@ -3,7 +3,7 @@ import '../Activity/Activity.css'
 import img from '../../Images/ANITA.jpg'
 import img2 from '../../Images/location.png'
 import './Cart.css'
-import Toast from '../Toast/Toast';
+
 
 const Cart = (props) => {
     const { cart } = props;
@@ -53,12 +53,6 @@ const Cart = (props) => {
                 <p className='times'> TIME: {total} Min</p>
 
                 <p className='times'> Breaktime:</p>
-                {/* toast */}
-
-
-
-                
-                
 
             </div>
             
